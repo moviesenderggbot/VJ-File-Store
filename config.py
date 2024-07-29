@@ -24,7 +24,7 @@ PORT = environ.get("PORT", "8080")
 
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://faxadej879:faxadej879@cluster0.ee0xlwn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://laxebi2255:GEGrBN48BlhR7ZSU@cluster0.9fqbreg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "techvj")
 
 # Clone Info :-
