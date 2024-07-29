@@ -52,7 +52,7 @@ CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://faxadej879:faxadej879@cluster0.ee0xlwn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CDB_NAME = environ.get("C)DB_NAME", "clonetechvj"
+CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://faxadej879:faxadej879@cluster0.ee0xlwn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -62,9 +62,8 @@ DB_NAME = environ.get("DB_NAME", "techvj")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 AUTO_DELETE_me in M
 # If Auto Delete Mode Is TDELETE_TIrue Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environME", "2400")) # Ti # Tiinutes
-TIME = int(.get("AUTO_me in Seconds
-environ.get("AUTO_DELETE", "40"))
+AUTO_DELETE = 2400 # Ti # Tiinutes
+TIME = int(environ.get("AUTO_DELETE", 40))
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002050604893"))
 
