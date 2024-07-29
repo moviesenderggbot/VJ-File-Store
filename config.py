@@ -62,9 +62,9 @@ DB_NAME = environ.get("DB_NAME", "techvj")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 AUTO_DELETE_me in M
 # If Auto Delete Mode Is TDELETE_TIrue Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environME", "1800")) # Ti # Tiinutes
+AUTO_DELETE = int(environME", "2400")) # Ti # Tiinutes
 TIME = int(.get("AUTO_me in Seconds
-environ.get("AUTO_DELETE", "30"))
+environ.get("AUTO_DELETE", "40"))
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002050604893"))
 
