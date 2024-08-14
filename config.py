@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "24185743"))
 API_HASH = environ.get("API_HASH", "0121b5c71174e19ee4b573c1f2494168")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7157483056:AAGeVlklMx5040IxU_PwIMttUjMSqVCLTzo")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/16e95a9ab26fc4bc34d22.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "FileStoreXRo_bot") # without @
 PORT = environ.get("PORT", "8080")
